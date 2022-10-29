@@ -1,0 +1,256 @@
+/* General */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+body{
+  background-color: #202020;
+  color: #fff;
+  
+}
+ul{
+  list-style: none;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Header */
+
+header{
+  padding: 15px;
+  display: flex;
+  justify-content:space-between
+}
+.logo{
+  padding: 10px;
+}
+.navbar{
+  padding: 10px;
+}
+.social{
+  padding: 10px;
+}
+.navbar ul, .social ul{
+  display: flex;
+  justify-content:space-around
+}
+.navbar ul li, .social ul li{
+  margin: 10px 10px;
+}
+.navbar ul{
+  margin-left: 110px;
+  margin-top: 5px;
+}
+.navbar ul a:hover{
+  text-decoration: underline;
+  color: #feda4e;
+}
+
+.social ul li i:hover{
+  color: #feda4e;
+  cursor: pointer;
+}
+.social ul li i {
+  font-size: 1.4em
+}
+
+/* Hero Secrion */
+
+.hero{
+  padding: 20px;
+  height: 650px;
+  text-align: center;
+}
+.hero h1{
+  text-transform: uppercase;
+  font-size: 8em;
+  margin-top: 10%;
+  color: #feda4e;
+}
+.hero .slogan{
+  text-transform: uppercase;
+  font-size: 2.4em;
+  margin-top: -30px;
+}
+.hero .description{
+  width: 40%;
+  line-height: 1.5;
+  margin: 30px auto;
+  text-align: justify;
+}
+
+/* whatido */
+
+.whatido, .about{
+  background-color: #272727;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.whatido, .about, .contact{
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.whatido h2, .about h2, .contact h2 {
+  margin: 30px;
+  font-size: 2em;
+  text-align: center;
+}
+.topics{
+  display: flex;
+  color: black;
+}
+.topic{
+  background-color: #feda4e;
+  margin: 10px;
+  padding: 10px;
+  width: 25%;
+  text-align: center;
+  border-radius: 10px;
+}
+.topic-img{
+  width: 50%;
+  display: block;
+  margin: 3em auto;
+  
+}
+.topic h3{
+  margin-top: -20px;
+}
+.topic p{
+  width: 80%;
+  margin:20px auto;
+  font-size: 0.8em;
+  margin-bottom: 40px;
+}
+.Projects{
+  display: flex;
+}
+
+.projects-section h2{
+  margin: 90px 30px 30px 30px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.project{
+  background-color: #feda4e;
+  margin: 20px;
+  padding: 10px;
+  width: 50%;
+  text-align: justify;
+  border-radius: 10px;
+  color: black;
+  padding: 30px 40px 50px;
+}
+.project h3{
+font-size: 1.5em;
+margin-left: -15px;
+}
+
+.project span {
+  font-weight: bold;
+}
+.about-content, .contact-content{
+  display: flex;
+  justify-content:space-around;
+}
+.profile{
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-top: 50px;
+}
+
+.AboutRight{
+  width: 40%;
+}
+.AboutRight p{
+  margin-bottom: 20px;
+}
+.about h3{
+  font-size: 1.6em;
+}
+.contact-details{
+  width: 50%;
+  padding: 10px;
+  text-align: justify;
+}
+.contact-details p{
+  margin-bottom: 15px;
+}
+.contact form{
+  padding: 20px;
+  margin: 0px auto;
+  width: 80%;
+}
+.contact form input:first-of-type{
+  margin-top: 0;
+}
+.contact form input{
+  width: 100%;
+  padding: 10px 8px;
+  margin: 10px auto;
+  background-color: #feda4e;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.contact form input[type="submit"]{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact form input:focus, 
+.contact form input[type="submit"]:focus{
+  background-color: #e5c338;
+}
+.contact form textarea{
+  width: 100%;
+  padding: 6px 8px;
+  margin: 10px auto;
+  height: 180px;
+  background-color: #feda4e;
+  font-family: inherit;
+}
+footer{
+  display: flex;
+  justify-content:space-between;
+  margin: 30px auto;
+}
+footer .company-name{
+  font-size: 2em;
+  color: #e5c338;
+}
+footer .company-dec{
+  font-size: 1.3em;
+}
+footer h3{
+  font-size: 1.5em;
+  margin: 8px 0;
+}
+footer ul, footer a{
+  font-size: 1em;
+  margin: 2px 0;
+  color: #ccc;
+}
+footer a:hover{
+  color:#feda4e;
+}
+.copyrights{
+  background-color: #272727;
+  padding: 5px;
+  color: #ccc;
+  font-size: 0.9em;
+}
+.copyrights a{
+  text-decoration: underline;
+}
